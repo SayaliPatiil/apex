@@ -38,14 +38,16 @@
     
     
         global class Request {
-            @InvocableVariable(description='Collection of Ids' required=true)
-            global List<String> inputIds;
+            /**
+            * @InvocableVariable(description='Collection of Ids' required=true)
+              global List<String> inputIds;
             
-            @InvocableVariable
-            global String objectName;
+            * @InvocableVariable
+              global String objectName;
     
-            @InvocableVariable
-            global String fieldNames;
+            * @InvocableVariable
+              global String fieldNames;
+              */
     
         }
         
