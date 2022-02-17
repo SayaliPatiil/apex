@@ -48,6 +48,7 @@
             * @InvocableVariable
               global String fieldNames;
               */
+            public Object bar() { return null;}
     
         }
         
